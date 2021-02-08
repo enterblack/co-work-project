@@ -7,7 +7,7 @@ public class CalPlanetDistance {
 //		double lightSpeed = (double) (3 * Math.pow(10, 5));
 //		double year = 60 * 60 * 24 * 365 ;
 //		System.out.println( proxima/lightSpeed*year );
-		
+//		아 나누어야 되는구나 ㅎㅎ
 		double proxima2 = 40e12;
 		final double lightSpeed = 30e4;
 		
