@@ -13,7 +13,8 @@ public class Main {
 		num1 = scanner.nextInt();
 		num2 = scanner.nextInt();
 		
-				
+		System.out.println(num1 + num2);
+		
 	}
 
 }
