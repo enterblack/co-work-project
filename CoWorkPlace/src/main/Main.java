@@ -17,6 +17,10 @@ class Calculate
 	{
 		return n1 / n2;
 	}
+	int mul(int n1,int n2)
+	{
+		return n1*n2;
+	}
 }
 
 
@@ -42,6 +46,10 @@ public class Main {
 		}else if(operation == '-') {
 			System.out.println(num1+ "," + num2);
 			System.out.println("빼기 = " + cal.minus(num1, num2));
+		}else if(operation == '*') {
+			System.out.println(num1+ "," + num2);
+			System.out.println("곱하기 = " + cal.mul(num1, num2));
+			
 		}else if(operation == '/') {
 			if(num2 == 0) {
 				System.out.println("0으로 나눌수 없습니다. 프로그램을 종료합니다.");
