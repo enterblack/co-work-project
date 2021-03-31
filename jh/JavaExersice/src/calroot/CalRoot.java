@@ -3,6 +3,7 @@ package calroot;
 public class CalRoot {
 	
 	public static void main(String args[]) {
+		//근의 공식을 이용한 2차방정식의 해 2개를 구함
 		long b = (long) -3.0;
 		long c = (long) 2.0;
 
