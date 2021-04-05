@@ -1,4 +1,4 @@
-package minesweeper;
+package mineSweeper;
 
 public class MineSweeper {
 

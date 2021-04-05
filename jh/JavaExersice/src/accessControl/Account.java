@@ -1,4 +1,4 @@
-package accesscontrol;
+package accessControl;
 
 public class Account {
 //	private int regNumber;

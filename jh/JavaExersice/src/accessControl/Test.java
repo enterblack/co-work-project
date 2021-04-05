@@ -1,4 +1,4 @@
-package accesscontrol;
+package accessControl;
 
 class A{
 	private int a;
