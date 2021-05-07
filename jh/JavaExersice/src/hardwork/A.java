@@ -75,10 +75,16 @@ public class A {
 		
 		int[] array = new int[arrayLength.length];
 		
-		
-		for(int i=0 ; i<arrayLength.length ; i++) {
-		
-			array[i] = Integer.parseInt(answerStr[i]);
+		String replaceStr = "";
+		for(int i=1 ; i<arrayLength.length ; i++) {
+			
+			answerStr[i] = answerStr[i].replace(answerStr[i-1], "");
+			//array[i] = Integer.parseInt(answerStr[i]);
+			
+		}
+		//출력결과는 3 2 43 2341 으로 뜬다 그래서 이것을 해결해보자 ㅠㅠ 
+		for(int k=0 ; k<answerStr.length ; k++) {
+			array[k] = Integer.parseInt(answerStr[k]);
 		}
 		
 		for(int i=0 ; i<array.length ; i++) {
